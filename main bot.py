@@ -1027,4 +1027,4 @@ async def bans(interaction: discord.Interaction):
 async def setup_hook():
     bot.start_time = datetime.datetime.utcnow()
 
-bot.run(TOKEN)
+bot.run(DISCORD_TOKEN)
